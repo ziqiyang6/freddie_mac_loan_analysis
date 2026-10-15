@@ -1,0 +1,27 @@
+# Freddie Mac data (license does not allow redistribution; download it yourself)
+data/
+historical_data_2018/
+freddie_mac_dataset_user_guide.pdf
+
+# Local-only notes and credentials
+info.txt
+sql_command.md
+project_intro/
+test.ipynb
+
+# Spark write markers
+*.crc
+_SUCCESS
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS
+.DS_Store

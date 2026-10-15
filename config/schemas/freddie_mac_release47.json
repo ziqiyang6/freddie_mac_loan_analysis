@@ -1,0 +1,353 @@
+{
+    "dataset": "freddie_mac_sfll_standard",
+    "release": "47",
+    "effective_date": "2026-07",
+    "source": "Freddie Mac Single-Family Loan-Level Dataset - Standard Dataset",
+    "raw_read_type": "string",
+    "orig": {
+      "delimiter": "|",
+      "header": false,
+      "expected_column_count": 31,
+      "file_pattern": "orig_*.txt",
+      "columns": [
+        {
+          "position": 1,
+          "name": "classic_fico",
+          "processed_type": "int"
+        },
+        {
+          "position": 2,
+          "name": "first_payment_date",
+          "processed_type": "string"
+        },
+        {
+          "position": 3,
+          "name": "first_time_homebuyer_indicator",
+          "processed_type": "string"
+        },
+        {
+          "position": 4,
+          "name": "maturity_date",
+          "processed_type": "string"
+        },
+        {
+          "position": 5,
+          "name": "msa",
+          "processed_type": "string"
+        },
+        {
+          "position": 6,
+          "name": "mortgage_insurance_percentage",
+          "processed_type": "double"
+        },
+        {
+          "position": 7,
+          "name": "number_of_units",
+          "processed_type": "int"
+        },
+        {
+          "position": 8,
+          "name": "occupancy_status",
+          "processed_type": "string"
+        },
+        {
+          "position": 9,
+          "name": "original_cltv",
+          "processed_type": "double"
+        },
+        {
+          "position": 10,
+          "name": "original_dti",
+          "processed_type": "double"
+        },
+        {
+          "position": 11,
+          "name": "original_upb",
+          "processed_type": "double"
+        },
+        {
+          "position": 12,
+          "name": "original_ltv",
+          "processed_type": "double"
+        },
+        {
+          "position": 13,
+          "name": "original_interest_rate",
+          "processed_type": "double"
+        },
+        {
+          "position": 14,
+          "name": "channel",
+          "processed_type": "string"
+        },
+        {
+          "position": 15,
+          "name": "prepayment_penalty_indicator",
+          "processed_type": "string"
+        },
+        {
+          "position": 16,
+          "name": "amortization_type",
+          "processed_type": "string"
+        },
+        {
+          "position": 17,
+          "name": "property_state",
+          "processed_type": "string"
+        },
+        {
+          "position": 18,
+          "name": "property_type",
+          "processed_type": "string"
+        },
+        {
+          "position": 19,
+          "name": "postal_code",
+          "processed_type": "string"
+        },
+        {
+          "position": 20,
+          "name": "loan_identifier",
+          "processed_type": "string"
+        },
+        {
+          "position": 21,
+          "name": "loan_purpose",
+          "processed_type": "string"
+        },
+        {
+          "position": 22,
+          "name": "original_loan_term",
+          "processed_type": "int"
+        },
+        {
+          "position": 23,
+          "name": "number_of_borrowers",
+          "processed_type": "int"
+        },
+        {
+          "position": 24,
+          "name": "seller_name",
+          "processed_type": "string"
+        },
+        {
+          "position": 25,
+          "name": "super_conforming_flag",
+          "processed_type": "string"
+        },
+        {
+          "position": 26,
+          "name": "pre_harp_loan_sequence_number",
+          "processed_type": "string"
+        },
+        {
+          "position": 27,
+          "name": "special_eligibility_program",
+          "processed_type": "string"
+        },
+        {
+          "position": 28,
+          "name": "harp_indicator",
+          "processed_type": "string"
+        },
+        {
+          "position": 29,
+          "name": "property_valuation_method",
+          "processed_type": "string"
+        },
+        {
+          "position": 30,
+          "name": "interest_only_indicator",
+          "processed_type": "string"
+        },
+        {
+          "position": 31,
+          "name": "vantagescore_4_0",
+          "processed_type": "int"
+        }
+      ]
+    },
+    "perf": {
+      "delimiter": "|",
+      "header": false,
+      "expected_column_count": 35,
+      "file_pattern": "perf_*.txt",
+      "columns": [
+        {
+          "position": 1,
+          "name": "loan_identifier",
+          "processed_type": "string"
+        },
+        {
+          "position": 2,
+          "name": "period",
+          "processed_type": "string"
+        },
+        {
+          "position": 3,
+          "name": "current_actual_upb",
+          "processed_type": "double"
+        },
+        {
+          "position": 4,
+          "name": "current_loan_delinquency_status",
+          "processed_type": "string"
+        },
+        {
+          "position": 5,
+          "name": "loan_age",
+          "processed_type": "int"
+        },
+        {
+          "position": 6,
+          "name": "remaining_months_to_legal_maturity",
+          "processed_type": "int"
+        },
+        {
+          "position": 7,
+          "name": "defect_settlement_date",
+          "processed_type": "string"
+        },
+        {
+          "position": 8,
+          "name": "modification_flag",
+          "processed_type": "string"
+        },
+        {
+          "position": 9,
+          "name": "zero_balance_code",
+          "processed_type": "string"
+        },
+        {
+          "position": 10,
+          "name": "zero_balance_effective_date",
+          "processed_type": "string"
+        },
+        {
+          "position": 11,
+          "name": "current_interest_rate",
+          "processed_type": "double"
+        },
+        {
+          "position": 12,
+          "name": "current_non_interest_bearing_upb",
+          "processed_type": "double"
+        },
+        {
+          "position": 13,
+          "name": "ddlpi",
+          "processed_type": "string"
+        },
+        {
+          "position": 14,
+          "name": "mi_recoveries",
+          "processed_type": "double"
+        },
+        {
+          "position": 15,
+          "name": "net_sale_proceeds",
+          "processed_type": "double"
+        },
+        {
+          "position": 16,
+          "name": "non_mi_recoveries",
+          "processed_type": "double"
+        },
+        {
+          "position": 17,
+          "name": "total_expenses",
+          "processed_type": "double"
+        },
+        {
+          "position": 18,
+          "name": "legal_costs",
+          "processed_type": "double"
+        },
+        {
+          "position": 19,
+          "name": "maintenance_preservation_costs",
+          "processed_type": "double"
+        },
+        {
+          "position": 20,
+          "name": "taxes_and_insurance",
+          "processed_type": "double"
+        },
+        {
+          "position": 21,
+          "name": "miscellaneous_expenses",
+          "processed_type": "double"
+        },
+        {
+          "position": 22,
+          "name": "actual_loss",
+          "processed_type": "double"
+        },
+        {
+          "position": 23,
+          "name": "cumulative_modification_costs",
+          "processed_type": "double"
+        },
+        {
+          "position": 24,
+          "name": "interest_rate_step_indicator",
+          "processed_type": "string"
+        },
+        {
+          "position": 25,
+          "name": "payment_deferral_flag",
+          "processed_type": "string"
+        },
+        {
+          "position": 26,
+          "name": "estimated_ltv",
+          "processed_type": "double"
+        },
+        {
+          "position": 27,
+          "name": "zero_balance_removal_upb",
+          "processed_type": "double"
+        },
+        {
+          "position": 28,
+          "name": "delinquent_accrued_interest",
+          "processed_type": "double"
+        },
+        {
+          "position": 29,
+          "name": "delinquency_due_to_disaster",
+          "processed_type": "string"
+        },
+        {
+          "position": 30,
+          "name": "borrower_assistance_plan",
+          "processed_type": "string"
+        },
+        {
+          "position": 31,
+          "name": "current_period_modification_costs",
+          "processed_type": "double"
+        },
+        {
+          "position": 32,
+          "name": "current_interest_bearing_upb",
+          "processed_type": "double"
+        },
+        {
+          "position": 33,
+          "name": "mortgage_insurance_cancellation_indicator",
+          "processed_type": "string"
+        },
+        {
+          "position": 34,
+          "name": "servicer_name",
+          "processed_type": "string"
+        },
+        {
+          "position": 35,
+          "name": "bankruptcy_cramdown_costs",
+          "processed_type": "double"
+        }
+      ]
+    }
+  }
